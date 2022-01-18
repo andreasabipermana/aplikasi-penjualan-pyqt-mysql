@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main</class>
+ <widget class="QMainWindow" name="main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>main</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>791</width>
+      <height>591</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAccount">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionLogin"/>
+    <addaction name="actionLogout"/>
+   </widget>
+   <widget class="QMenu" name="menuAdmin">
+    <property name="title">
+     <string>Admin</string>
+    </property>
+    <addaction name="actionUser_Management"/>
+    <addaction name="actionData_Barang"/>
+    <addaction name="actionData_Vendor"/>
+   </widget>
+   <widget class="QMenu" name="menuLaporan">
+    <property name="title">
+     <string>Laporan</string>
+    </property>
+    <addaction name="actionLaporan_Keuangan"/>
+   </widget>
+   <widget class="QMenu" name="menuKasir">
+    <property name="title">
+     <string>Kasir</string>
+    </property>
+    <addaction name="actionAplikasi_Kasir"/>
+   </widget>
+   <widget class="QMenu" name="menuTentang">
+    <property name="title">
+     <string>Tentang</string>
+    </property>
+    <addaction name="actionAplikasi"/>
+   </widget>
+   <addaction name="menuAccount"/>
+   <addaction name="menuAdmin"/>
+   <addaction name="menuLaporan"/>
+   <addaction name="menuKasir"/>
+   <addaction name="menuTentang"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLogin">
+   <property name="text">
+    <string>Login</string>
+   </property>
+  </action>
+  <action name="actionLogout">
+   <property name="text">
+    <string>Logout</string>
+   </property>
+  </action>
+  <action name="actionUser_Management">
+   <property name="text">
+    <string>User Management</string>
+   </property>
+  </action>
+  <action name="actionData_Barang">
+   <property name="text">
+    <string>Data Barang</string>
+   </property>
+  </action>
+  <action name="actionData_Vendor">
+   <property name="text">
+    <string>Data Vendor</string>
+   </property>
+  </action>
+  <action name="actionAplikasi">
+   <property name="text">
+    <string>Aplikasi</string>
+   </property>
+  </action>
+  <action name="actionLaporan_Keuangan">
+   <property name="text">
+    <string>Laporan Keuangan</string>
+   </property>
+  </action>
+  <action name="actionAplikasi_Kasir">
+   <property name="text">
+    <string>Aplikasi Kasir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
